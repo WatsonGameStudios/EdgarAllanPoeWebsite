@@ -22,10 +22,17 @@ nav {
   border-radius: 0px;
   padding: 30px;
   box-shadow: 0 5px 20px rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
 }
 
+nav ul {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
 nav ul li {
-  display: inline-block;
   list-style: none;
   font-size: 2rem;
   padding: 0 10px;
@@ -54,14 +61,14 @@ nav ul li:hover::after {
 
 .language-switcher button {
   padding: 0.5rem 1rem;
-  border: 1px solid #ccc;
-  background: white;
+  border: none;
+  background: transparent;
   cursor: pointer;
   border-radius: 4px;
 }
 
 .language-switcher button:hover {
-  background: #f0f0f0;
+  background: transparent;
 }
 
 #hero_title {
@@ -110,4 +117,22 @@ nav ul li:hover::after {
   background: linear-gradient(to right, #b96c1f, #825d4e);
   padding: 20px;
   box-shadow: #000000 0px 5px 20px;
+}
+
+#logo {
+  width: 50px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.flag {
+  width: 60px;
+  height: auto;
+  border-radius: 30px;
+  box-shadow: #000000 0px 5px 20px;
+}
+
+.flag:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
 }

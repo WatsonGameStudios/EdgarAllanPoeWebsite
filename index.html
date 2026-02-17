@@ -9,14 +9,19 @@
   <body>
     <div id="menubar">
       <nav>
+        <img id="logo" src="images/logo.png" alt="Edgar Allan Poe Logo" />
         <ul>
           <li data-i18n="nav.introduction">Introduction</li>
           <li data-i18n="nav.analysis">Analysis</li>
           <li data-i18n="nav.modern-society">Modern Society</li>
         </ul>
         <div class="language-switcher">
-          <button onclick="changeLanguage('en')">EN</button>
-          <button onclick="changeLanguage('se')">SE</button>
+          <button class="language-button" onclick="changeLanguage('en')">
+            <img class="flag" src="images/EnglishFlag.jpg" alt="English Flag" />
+          </button>
+          <button class="language-button" onclick="changeLanguage('se')">
+            <img class="flag" src="images/SwedishFlag.png" alt="Swedish Flag" />
+          </button>
         </div>
       </nav>
     </div>
