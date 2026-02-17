@@ -21,7 +21,7 @@ nav {
   background: linear-gradient(to right, #544f4a, #805747);
   border-radius: 0px;
   padding: 30px;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 5px 20px rgb(0, 0, 0);
 }
 
 nav ul li {
@@ -48,7 +48,7 @@ nav ul li:hover::after {
 }
 
 .language-switcher {
-  display: inline-flex;
+  display: inline-block;
   gap: 0.5rem;
 }
 
@@ -86,12 +86,13 @@ nav ul li:hover::after {
   border-radius: 18px;
 }
 
-#hero-section {
-  margin: 20px;
-  border-radius: 40px;
-  min-width: 1000px;
-  background: linear-gradient(to right, #b96c1f, #825d4e);
-  padding: 20px;
+#introduction_image {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  margin-right: 0;
+  height: auto;
+  border-radius: 18px;
 }
 
 #hero_qoute {
@@ -100,4 +101,13 @@ nav ul li:hover::after {
   color: #000000;
   text-align: center;
   vertical-align: middle;
+}
+
+.section {
+  margin: 20px;
+  border-radius: 40px;
+  min-width: 1000px;
+  background: linear-gradient(to right, #b96c1f, #825d4e);
+  padding: 20px;
+  box-shadow: #000000 0px 5px 20px;
 }
