@@ -5,6 +5,10 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+body {
+  background: linear-gradient(to bottom, #2c1c15, #774816);
+}
+
 .container {
   width: 100%;
   height: 100vh;
@@ -14,11 +18,12 @@
   justify-content: center;
 }
 nav {
-  background: #fff;
-  border-radius: 9px;
+  background: linear-gradient(to right, #544f4a, #805747);
+  border-radius: 0px;
   padding: 30px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
 }
+
 nav ul li {
   display: inline-block;
   list-style: none;
@@ -32,7 +37,7 @@ nav ul li:after {
   content: "";
   width: 0;
   height: 3px;
-  background: #2192ff;
+  background: #300b09;
   position: absolute;
   left: 0;
   bottom: -10px;
@@ -60,8 +65,39 @@ nav ul li:hover::after {
 }
 
 #hero_title {
-  padding-top: 100px;
-  font-size: 25px;
+  padding-left: 10px;
+  display: inline-block;
+  font-size: 60px;
   color: #000000;
   text-align: center;
+  vertical-align: middle;
+  margin-right: 20px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  min-width: 0;
+}
+
+#hero_image {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 auto;
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+
+#hero-section {
+  margin: 20px;
+  border-radius: 40px;
+  min-width: 1000px;
+  background: linear-gradient(to right, #b96c1f, #825d4e);
+  padding: 20px;
+}
+
+#hero_qoute {
+  display: flex;
+  font-size: 20px;
+  color: #000000;
+  text-align: center;
+  vertical-align: middle;
 }
