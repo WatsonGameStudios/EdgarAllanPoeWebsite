@@ -58,3 +58,10 @@ nav ul li:hover::after {
 .language-switcher button:hover {
   background: #f0f0f0;
 }
+
+#hero_title {
+  padding-top: 100px;
+  font-size: 25px;
+  color: #000000;
+  text-align: center;
+}
