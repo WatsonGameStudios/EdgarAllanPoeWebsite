@@ -11,9 +11,17 @@
       <nav>
         <img id="logo" src="images/logo.png" alt="Edgar Allan Poe Logo" />
         <ul>
-          <li data-i18n="nav.introduction">Introduction</li>
-          <li data-i18n="nav.analysis">Analysis</li>
-          <li data-i18n="nav.modern-society">Modern Society</li>
+          <li>
+            <a href="#intro_title" data-i18n="nav.introduction">Introduction</a>
+          </li>
+          <li>
+            <a href="#analysis_title" data-i18n="nav.analysis">Analysis</a>
+          </li>
+          <li>
+            <a href="#modern_title" data-i18n="nav.modern-society"
+              >Modern Society</a
+            >
+          </li>
         </ul>
         <div class="language-switcher">
           <button class="language-button" onclick="changeLanguage('en')">
@@ -38,7 +46,7 @@
       </h1>
     </div>
     <div class="section">
-      <h1>Introduction: A Voice from the Abyss</h1>
+      <h1 id="intro_title">Introduction: A Voice from the Abyss</h1>
       <div class="inline_wrapper">
         <p id="introduction_text">
           Edgar Allan Poe wrote from the inside of suffering. His tales of
@@ -67,7 +75,7 @@
       </div>
     </div>
     <div class="section">
-      <h1>Analysis</h1>
+      <h1 id="analysis_title">Analysis</h1>
       <div class="inline_wrapper">
         <img
           id="analysis_image_1"
