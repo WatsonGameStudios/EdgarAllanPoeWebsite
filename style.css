@@ -66,6 +66,7 @@ nav ul li:hover::after {
 .language-switcher {
   display: inline-block;
   gap: 0.5rem;
+  margin-left: auto;
 }
 
 .language-switcher button {
@@ -145,16 +146,6 @@ nav ul li:hover::after {
   transition: transform 0.3s ease;
 }
 
-#introduction_text {
-  margin-top: 20px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  gap: 20px;
-  flex-wrap: nowrap;
-}
-
 #introduction_text p {
   flex: 1;
   margin: 0;
@@ -168,11 +159,30 @@ nav ul li:hover::after {
   flex-shrink: 0;
 }
 
-#introduction_content {
+.inline_wrapper {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   gap: 20px;
   flex-wrap: nowrap;
+}
+
+p {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: nowrap;
+}
+
+#analysis_image_1 {
+  margin-top: 40px;
+  width: auto;
+  height: 400px;
+  border-radius: 18px;
+  margin-right: 20px;
+  flex-shrink: 0;
 }
