@@ -186,3 +186,10 @@ p {
   margin-right: 20px;
   flex-shrink: 0;
 }
+
+.qoute_immage {
+  width: 100%;
+  height: auto;
+  border-radius: 18px;
+  flex-shrink: 0;
+}
