@@ -9,6 +9,12 @@ body {
   background: linear-gradient(to bottom, #2c1c15, #774816);
 }
 
+#menubar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
 .container {
   width: 100%;
   height: 100vh;
@@ -19,8 +25,6 @@ body {
 }
 nav {
   background: linear-gradient(to right, #544f4a, #805747);
-  border-radius: 0px;
-  padding: 30px;
   box-shadow: 0 5px 20px rgb(0, 0, 0);
   display: flex;
   align-items: center;
