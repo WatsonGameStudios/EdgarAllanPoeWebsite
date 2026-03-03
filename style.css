@@ -220,3 +220,9 @@ nav ul li a {
 h2 {
   margin-top: 20px;
 }
+
+#intro_title,
+#analysis_title,
+#modern_title {
+  scroll-margin-top: 150px;
+}
