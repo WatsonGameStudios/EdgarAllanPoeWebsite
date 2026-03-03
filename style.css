@@ -176,6 +176,7 @@ p {
   justify-content: space-between;
   gap: 20px;
   flex-wrap: nowrap;
+  font-size: 19px;
 }
 
 #analysis_image_1 {
@@ -201,4 +202,17 @@ html {
 nav ul li a {
   text-decoration: none;
   color: inherit;
+}
+
+.book_cover {
+  margin-top: 40px;
+  width: 350px;
+  height: auto;
+  border-radius: 18px;
+  margin-left: 20px;
+  flex-shrink: 0;
+}
+
+h2 {
+  margin-top: 20px;
 }
