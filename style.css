@@ -125,6 +125,14 @@ nav ul li:hover::after {
   margin-left: 50px;
 }
 
+#hero_qoute_swe {
+  display: flex;
+  font-size: 20px;
+  color: #000000;
+  text-align: center;
+  vertical-align: middle;
+  margin-left: 20px;
+}
 .section {
   margin: 40px;
   border-radius: 40px;
