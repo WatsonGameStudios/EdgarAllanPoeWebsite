@@ -95,13 +95,14 @@ nav ul li:hover::after {
   margin-right: 20px;
   overflow-wrap: break-word;
   word-wrap: break-word;
+  margin-left: 10vw;
 }
 
 #hero_image {
   display: inline-block;
   vertical-align: middle;
   margin: 0 auto;
-  width: 300px;
+  width: 400px;
   height: auto;
   border-radius: 18px;
 }
@@ -121,6 +122,7 @@ nav ul li:hover::after {
   color: #000000;
   text-align: center;
   vertical-align: middle;
+  margin-left: 50px;
 }
 
 .section {
@@ -225,4 +227,9 @@ h2 {
 #analysis_title,
 #modern_title {
   scroll-margin-top: 150px;
+}
+
+#hero_image_wrapper {
+  display: inline-block;
+  vertical-align: middle;
 }
